@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/tarouniapp/',
   title: 'uni-app/taro+uniCloud入门到跑路',
   description: '跑路吧',
   themeConfig: {
